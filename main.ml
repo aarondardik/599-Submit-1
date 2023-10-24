@@ -594,7 +594,7 @@ let (* rec? *) matchesHiOrHelloStar : string -> bool =
 (* - Write a program that determines whether a given string matches the pattern
      ("Hi" | "Hello")* . "Okay"*: *)
 
-     let matchesHiOrHelloOkayStar : string -> bool =
+     let matchesHiOrHelloThenOkayStar : string -> bool =
       fun str ->
         let rec checkOnlyOkay chars =  
           match chars with
